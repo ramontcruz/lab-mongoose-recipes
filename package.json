@@ -1,8 +1,9 @@
 {
   "name": "lab-mongoose-recipes",
   "version": "1.0.0",
-  "description": "",
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node ./index.js",
     "dev": "node ./index.js"
@@ -12,6 +13,18 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "mongoose": "^6.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramontcruz/lab-mongoose-recipes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ramontcruz/lab-mongoose-recipes/issues"
+  },
+  "homepage": "https://github.com/ramontcruz/lab-mongoose-recipes#readme"
 }
